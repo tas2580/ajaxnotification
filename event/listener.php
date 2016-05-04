@@ -70,6 +70,7 @@ class listener implements EventSubscriberInterface
 	{
 		$this->template->assign_vars(array(
 			'U_AJAXNOTIFICATION'			=> $this->helper->route('tas2580_ajaxnotification', array()),
+			'U_AJAXNOTIFICATION_TIMER'		=> $this->config['ajaxnotification_timeout'] * 1000,
 		));
 	}
 

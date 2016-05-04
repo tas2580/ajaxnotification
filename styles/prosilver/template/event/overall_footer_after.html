@@ -1,6 +1,8 @@
+<!-- IF S_USER_LOGGED_IN -->
 <script type="text/javascript">
 	var page_title = '<!-- IF not S_VIEWTOPIC and not S_VIEWFORUM -->{SITENAME} - <!-- ENDIF --><!-- IF S_IN_MCP -->{L_MCP} - <!-- ELSEIF S_IN_UCP -->{L_UCP} - <!-- ENDIF -->{PAGE_TITLE}<!-- IF S_VIEWTOPIC or S_VIEWFORUM --> - {SITENAME}<!-- ENDIF -->';
 	var ajaxnotification_url = '{U_AJAXNOTIFICATION}';
-	var ajaxnotification_timer = 3000;
+	var ajaxnotification_timer = {U_AJAXNOTIFICATION_TIMER};
 </script>
 <!-- INCLUDEJS @tas2580_ajaxnotification/script.js -->
+<!-- ENDIF -->

@@ -47,6 +47,7 @@ class main
 			'limit'			=> 5,
 		));
 
+		$result = array();
 		foreach ($notifications['notifications'] as $notification)
 		{
 			$data = $notification->prepare_for_display();

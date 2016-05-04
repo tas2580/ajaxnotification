@@ -92,7 +92,8 @@ class listener implements EventSubscriberInterface
 				'lang'		=> 'ACP_AJAXNOTIFICATION_TIMEOUT',
 				'validate'	=> 'int:0:99999',
 				'type'	=> 'number:0:99999',
-				'explain'	=> true
+				'explain'	=> true,
+				'append'	=> ' ' . $this->user->lang['SECONDS']
 			));
 			$display_vars['vars'] = $this->array_insert($display_vars['vars'], 'legend2', $insert);
 			$event['display_vars'] = $display_vars;

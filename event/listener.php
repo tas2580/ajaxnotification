@@ -94,7 +94,7 @@ class listener implements EventSubscriberInterface
 				'type'	=> 'number:0:99999',
 				'explain'	=> true
 			));
-			$display_vars['vars'] = $this->array_insert($display_vars['vars'], 'legend3', $insert);
+			$display_vars['vars'] = $this->array_insert($display_vars['vars'], 'legend2', $insert);
 			$event['display_vars'] = $display_vars;
 		}
 	}

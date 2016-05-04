@@ -31,7 +31,7 @@ class main
 	 * @param \phpbb\user			$user
 
 	 */
-	public function __construct(\phpbb\path_helper $path_helper, Container $phpbb_container,  \phpbb\user $user)
+	public function __construct(\phpbb\path_helper $path_helper, Container $phpbb_container, \phpbb\user $user)
 	{
 		$this->path_helper = $path_helper;
 		$this->phpbb_container = $phpbb_container;

@@ -14,12 +14,17 @@ After that go to the Admin panel of your forum and navigate in to Customise -> E
 
 SUPPORT
 -------
-You can get support for this extension on <a href="https://www.phpbb.com/community/viewtopic.php?f=456&t=2346906">phpBB.com</a>
+You can get support for this extension on <a href="https://www.phpbb.com/community/viewtopic.php?f=456&t=2370946">phpBB.com</a>
 or in german on <a href="https://www.phpbb.de/community/viewtopic.php?f=149&t=236071">phpbb.de</a>. For more informations look at
-<a href="https://tas2580.net/downloads/phpbb-ajax-regcheck/">my Website</a>.
+<a href="https://tas2580.net/downloads/phpbb-ajaxnotification/">my Website</a>.
 
 LICENSE
 -------
 <a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>
 
-[![Build Status](https://travis-ci.org/tas2580/ajaxnotification.svg?branch=master)](https://travis-ci.org/tas2580/ajaxnotification)
+Automated Testing
+-------
+We use automated unit tests to prevent regressions. Check out our travis build below:
+
+[![Build Status](https://travis-ci.org/tas2580/ajaxnotification.svg?branch=master)](https://travis-ci.org/ajaxnotification)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/tas2580/ajaxnotification/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/tas2580/ajaxnotification/?branch=master)
